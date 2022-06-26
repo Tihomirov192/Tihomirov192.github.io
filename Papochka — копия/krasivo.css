@@ -1,0 +1,264 @@
+.krasivo{
+	width: 100%;
+	background: #47457D;
+	height: 7.03vw;
+	align-items: center;
+	display:flex;
+}
+.imgg{
+margin-left: 13.02vw;
+}
+
+#menu {
+	display: flex;
+}
+#menu a {
+	margin-right: 0.05vw;
+	padding: 1.30vw;
+	font: 1.25vw Arial;
+	text-decoration: none;
+	color: white;
+	border: 0.05vw solid #47457D;
+	background-color: #47457D;
+}
+#menu a:hover, #menu a.active {
+	color: none;
+	border: 0.05vw solid none;
+	background-color: #3E3D67;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+}
+
+.logo-first {
+	width: 4.17vw;
+	height: 2.08vw;
+}
+
+.logo-two {
+	width: 23.02vw;
+	height: 2.71vw; 
+}
+
+.wrapper {
+	height: 35.42vw;
+	margin: 0px auto 0;
+	width: 100vw;
+}
+
+.slider {
+	background-color: #ddd;
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+	width: inherit;
+}
+
+.wrapper > input {
+	display: none;
+}
+
+.slides {
+	height: inherit;
+	position: absolute;
+	width: inherit;
+}
+
+.slide1 { background-image: url(https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_Cuphead_image1600w.jpg); }
+.slide2 { background-image: url(https://cdn.cloudflare.steamstatic.com/steam/apps/1283400/capsule_616x353.jpg?t=1639126228); }
+.slide3 { background-image: url(https://volsiz.ru/wp-content/uploads/2022/04/gran-turismo-7-z-aktualizacja-1-12-polyphony-naprawia-exclusiva-sony_6256ba9fde26a.jpeg); }
+.slide4 { background-image: url(https://cdn2.unrealengine.com/genshin-impact-update-version-2-5-when-the-sakura-bloom-available-february-16-3840x2160-5d452c5c7040.png); }
+
+
+
+.image-one, .image-two, .image-three, .image-four{
+	width: 24.74vw;
+	height: 18.07vw;
+}
+
+
+.flex-item {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+
+.gridd, .griddd {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 3.13vw;
+}
+
+.griddd-element {
+	margin-left: 3.13vw;
+	width: 18.39vw;
+	height: 13.02vw;
+}
+
+@media screen and (max-width: 83.33vw) {
+
+.gridd, .griddd {
+	margin-right: 20.83vw;
+}
+
+}
+
+.other {
+	height: 13.02vw;
+	width: 13.28vw;
+}
+
+.griddd-element {
+	width: 18.39vw;
+}
+
+.four-block {
+	background-color: #2AA499;
+	height: 15.10vw;
+	margin-top: 4.17vw;
+}
+
+
+
+.Xbox h1 {
+	color: white;
+	font-size: 2.50vw;
+	font-family: italic;
+}
+
+.Xbox h1, .Xbox h3 {
+	margin-left: 5.21vw;
+}
+
+.Xbox h1 {
+	padding-top: 1.30vw;
+}
+
+.Xbox h3 {
+	width: 57.29vw;
+	color: white;
+	text-align: left;
+	font-size: 2.08vw; 
+	font-family: italic;
+	margin-top: 2.08vw;
+	font-weight: 300;
+}
+
+.Xbox img {
+	float: right;
+	position: relative;
+	bottom: 11.20vw;
+	right: 5.21vw;
+	width: 24.22vw;
+	height: 15.10vw;
+}
+.wrapper .controls {
+	left: 50%;
+	margin-left: -98px;
+	position: absolute;
+}
+
+.wrapper label {
+	cursor: pointer;
+	display: inline-block;
+	height: 0.42vw;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 0.42vw;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.wrapper label:after {
+	border: 0.10vw solid #ddd;
+	content: " ";
+	display: block;
+	height: 0.63vw;
+	left: -0.21vw;
+	position: absolute;
+	top: -0.21vw;
+	width: 0.63vw;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.wrapper label {
+	cursor: pointer;
+	display: inline-block;
+	height: 0.42vw;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 0.42vw;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition: background ease-in-out .5s;
+	-moz-transition: background ease-in-out .5s;
+	-o-transition: background ease-in-out .5s;
+	transition: background ease-in-out .5s;
+}
+
+.wrapper label:hover, 
+#slide1:checked ~ .controls label:nth-of-type(1),
+#slide2:checked ~ .controls label:nth-of-type(2),
+#slide3:checked ~ .controls label:nth-of-type(3),
+#slide4:checked ~ .controls label:nth-of-type(4){
+	background: #ddd;
+}
+
+.slides {
+	height: inherit;
+	opacity: 0;
+	position: absolute;
+	width: inherit;
+	z-index: 0;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+}
+
+#slide1:checked ~ .slider > .slide1,
+#slide2:checked ~ .slider > .slide2,
+#slide3:checked ~ .slider > .slide3,
+#slide4:checked ~ .slider > .slide4{
+	opacity: 1;
+	z-index: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+
+
+
+footer {
+padding: 0.52vw;
+background: white;
+color: black;
+}
